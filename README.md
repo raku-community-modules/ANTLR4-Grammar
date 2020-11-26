@@ -1,9 +1,9 @@
 ANTLR4
 =======
 
-ANTLR4 proides an ANTLR4 to Perl6 Grammar converter.
+ANTLR4 provides an ANTLR4 to Raku Grammar converter.
 
-The grammar, AST and Perl6 bindings are provided as separate modules, so you can view both the raw abstract syntax tree and the final Perl6 converted output.
+The grammar, AST and Raku bindings are provided as separate modules, so you can view both the raw abstract syntax tree and the final Raku converted output.
 
 Installation
 ============
@@ -11,16 +11,7 @@ Installation
 * Using panda (a module management tool bundled with Rakudo Star):
 
 ```
-    panda update && panda install ANTLR4
-```
-
-* Using ufo (a project Makefile creation script bundled with Rakudo Star) and make:
-
-```
-    ufo                    
-    make
-    make test
-    make install
+    zef install ANTLR4-Grammar
 ```
 
 ## Testing
@@ -33,7 +24,7 @@ To run tests:
 
 ## Author
 
-Jeffrey Goff, DrFOrr on #perl6, https://github.com/drforr/
+Jeffrey Goff, DrFos/rr on #raku, https://github.com/drforr/
 
 ## License
 
