@@ -24,7 +24,7 @@ To run tests:
 
 ## Author
 
-Jeffrey Goff, DrFos/rr on #raku, https://github.com/drforr/
+Jeffrey Goff, DrForr on #raku, https://github.com/drforr/
 
 ## License
 
