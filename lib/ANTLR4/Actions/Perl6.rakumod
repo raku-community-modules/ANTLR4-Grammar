@@ -2,7 +2,7 @@
 
 =head1 ANTLR4::Actions::Perl6
 
-C<ANTLR4::Actions::Perl6> generates a perl6 representation of an ANTLR4 AST.
+C<ANTLR4::Actions::Perl6> generates a Raku representation of an ANTLR4 AST.
 
 =head1 Synopsis
 
@@ -20,7 +20,7 @@ translation of the ANTLR4 grammar that the module has been given to parse.
 
 =end pod
 
-use v6;
+use v6.c;
 
 my role Named { has $.name; }
 my role Modified {

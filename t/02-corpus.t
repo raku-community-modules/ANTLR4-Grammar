@@ -1,4 +1,4 @@
-use v6;
+use v6.c;
 use ANTLR4::Grammar::Parser;
 use Test;
 

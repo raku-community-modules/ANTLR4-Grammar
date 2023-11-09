@@ -49,7 +49,7 @@ Maintained by the Raku community (2020-2023)
 Artistic License 2.0
 =end pod
 
-use v6;
+use v6.c;
 use JSON::Fast;
 use ANTLR4::Grammar::Parser;
 use ANTLR4::Actions::Perl6;
