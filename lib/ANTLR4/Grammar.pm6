@@ -15,7 +15,7 @@ C<ANTLR4::Grammar> generates a perl6 representation of an ANTLR4 AST.
 =head1 Documentation
 
 In its simplest form, just use the .to-string method on an existing grammar
-text to get back its closest Perl 6 representation.
+text to get back its closest Raku representation.
 
 =head1 Extension
 

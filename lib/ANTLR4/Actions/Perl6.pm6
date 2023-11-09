@@ -15,7 +15,7 @@ C<ANTLR4::Actions::Perl6> generates a perl6 representation of an ANTLR4 AST.
 
 =head1 Documentation
 
-The action in this file will return a string containing a rough Perl 6
+The action in this file will return a string containing a rough Raku
 translation of the ANTLR4 grammar that the module has been given to parse.
 
 =end pod

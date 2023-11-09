@@ -5,7 +5,7 @@ use Test;
 plan 4;
 
 # The double comment blocks are around bits of the grammar that don't
-# necessarily translate into Perl 6.
+# necessarily translate into Raku.
 #
 # Taking a much more pragmatic approach this time 'round.
 #

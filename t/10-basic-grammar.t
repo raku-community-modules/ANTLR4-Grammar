@@ -8,10 +8,10 @@ sub compile( $orig ) {
 	return ANTLR4::Grammar.to-string( $orig )
 }
 
-# It's most important to test things that can easily translate into Perl 6.
+# It's most important to test things that can easily translate into Raku.
 #
 # Parametrize types, return types, options, and exceptions won't make sense
-# until the C/Java types get translated to Perl 6.
+# until the C/Java types get translated to Raku.
 
 is compile( Q:to[END] ), Q:to[END], 'empty grammar';
 grammar Empty;

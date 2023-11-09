@@ -8,7 +8,7 @@ my $p = ANTLR4::Grammar::Parser.new;
 
 # Commenting out the Abnf test as 04-use-parser.t tests:
 # parsing a .g4 file
-# Compiling the .g4 file into Perl 6
+# Compiling the .g4 file into Raku
 # Evaluating the grammar
 # Parsing a sample .abnf document
 #

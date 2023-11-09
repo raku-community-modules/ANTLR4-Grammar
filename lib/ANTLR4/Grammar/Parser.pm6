@@ -226,7 +226,7 @@ rule delegateGrammar
 	<key=ID> ['=' <value=ID>]?
  	}
  
-# Concede a bit to Perl 6's grammar here.
+# Concede a bit to Raku's grammar here.
 #
 # In the official ANTLR grammar, this is (probably) <ID> straight up.
 # But, if we have an explicit <tokenName> rather than a generic <ID>, that can
