@@ -1,3 +1,2 @@
 *.swp
-lib/.precomp/
-ANTLR4-Grammar-*
+.precomp

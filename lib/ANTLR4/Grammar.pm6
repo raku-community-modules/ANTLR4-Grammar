@@ -2,19 +2,29 @@
 
 =head1 ANTLR4::Grammar
 
-C<ANTLR4::Grammar> generates a perl6 representation of an ANTLR4 AST.
+C<ANTLR4::Grammar> generates a Raku representation of an ANTLR4 AST.
 
 =head1 Synopsis
 
+=begin code
     use ANTLR4::Grammar;
     my $ag = ANTLR4::Grammar.new;
 
     say $ag.to-string('grammar Minimal { identifier : [A-Z][A-Za-z]+ ; }');
     say $ag.file-to-string('ECMAScript.g4');
+=end code
+
+=head1 Installation
+
+From the ecosystem using C<zef>:
+
+=begin code 
+    zef install ANTLR4::Grammar
+=end code
 
 =head1 Documentation
 
-In its simplest form, just use the .to-string method on an existing grammar
+In its simplest form, just use the C<to-string> method on an existing grammar
 text to get back its closest Raku representation.
 
 =head1 Extension
@@ -28,10 +38,19 @@ Maybe you want to add a way to create a bare-bones action class to go along
 with your resulting grammar - override the C<to-string> method, you've got the
 C<$grammar> value that you can walk through, and do your own thing.
 
+=head1 Author
+
+✝ Jeffrey Goff, DrForr on #raku, https://github.com/drforr/
+
+Maintained by the Raku community (2020-2023)
+
+=head1 License
+
+Artistic License 2.0
 =end pod
 
 use v6;
-use JSON::Tiny;
+use JSON::Fast;
 use ANTLR4::Grammar::Parser;
 use ANTLR4::Actions::Perl6;
 

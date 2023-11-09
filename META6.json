@@ -1,28 +1,30 @@
 {
-  "auth" : "github:drforr",
-  "authors" : [
+  "auth": "zef:raku-community-modules",
+  "authors": [
     "Jeffrey Goff <drforr@pobox.com>"
   ],
-  "build-depends" : [ ],
-  "depends" : [
+  "build-depends": [
+  ],
+  "depends": [
     "Test::META"
   ],
-  "description" : "Turn ANTLR4 Grammars into Raku Grammars",
-  "license" : "Artistic-2.0",
-  "meta6" : "0",
-  "name" : "ANTLR4::Grammar",
-  "perl" : "6.c",
-  "provides" : {
-    "ANTLR4::Actions::Perl6" : "lib/ANTLR4/Actions/Perl6.pm6",
-    "ANTLR4::Grammar" : "lib/ANTLR4/Grammar.pm6",
-    "ANTLR4::Grammar::Parser" : "lib/ANTLR4/Grammar/Parser.pm6"
+  "description": "Turn ANTLR4 Grammars into Raku Grammars",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "ANTLR4::Grammar",
+  "provides": {
+    "ANTLR4::Actions::Perl6": "lib/ANTLR4/Actions/Perl6.pm6",
+    "ANTLR4::Grammar": "lib/ANTLR4/Grammar.pm6",
+    "ANTLR4::Grammar::Parser": "lib/ANTLR4/Grammar/Parser.pm6"
   },
-  "resources" : [ ],
-  "source-url" : "https://github.com/raku-community-modules/ANTLR4-Grammar.git",
-  "support" : {
-    "source" : "https://github.com/raku-community-modules/ANTLR4-Grammar.git"
+  "raku": "6.c",
+  "resources": [
+  ],
+  "source-url": "https://github.com/raku-community-modules/ANTLR4-Grammar.git",
+  "support": {
+    "source": "https://github.com/raku-community-modules/ANTLR4-Grammar.git"
   },
-  "tags" : [
+  "tags": [
     "ANTLR",
     "ANTLR4",
     "Grammar",
@@ -32,9 +34,9 @@
     "parser",
     "parsing"
   ],
-  "test-depends" : [
+  "test-depends": [
     "Test",
-    "JSON::Tiny"
+    "JSON::Fast"
   ],
-  "version" : "0.6.2"
+  "version": "0.6.2"
 }
