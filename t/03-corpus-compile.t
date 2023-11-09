@@ -74,4 +74,3 @@ eval-lives-ok compile( 'WebIDL.g4'              ), 'WebIDL.g4';
 eval-lives-ok compile( 'XMLLexer.g4'            ), 'XMLLexer.g4';
 eval-lives-ok compile( 'XMLParser.g4'           ), 'XMLParser.g4';
 
-# vim: ft=perl6

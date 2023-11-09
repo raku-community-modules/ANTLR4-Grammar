@@ -246,4 +246,3 @@ class ANTLR4::Grammar:ver<0.6.2> {
 	}
 }
 
-# vim: ft=perl6

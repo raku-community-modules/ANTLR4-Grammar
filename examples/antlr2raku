@@ -6,4 +6,3 @@ sub MAIN( Str $filename )
 	say ANTLR4::Grammar.file-to-string( $filename );
 	}
 
-# vim: ft=perl6

@@ -1229,4 +1229,3 @@ subtest 'rule', {
 
 done-testing;
 
-# vim: ft=perl6

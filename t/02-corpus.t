@@ -72,4 +72,3 @@ ok $p.parsefile( 'corpus/WebIDL.g4'              ), 'WebIDL.g4';
 ok $p.parsefile( 'corpus/XMLLexer.g4'            ), 'XMLLexer.g4';
 ok $p.parsefile( 'corpus/XMLParser.g4'           ), 'XMLParser.g4';
 
-# vim: ft=perl6
