@@ -50,7 +50,7 @@ Artistic License 2.0
 =end pod
 
 use v6.c;
-use JSON::Fast;
+use JSON::Tiny;
 use ANTLR4::Grammar::Parser;
 use ANTLR4::Actions::Perl6;
 

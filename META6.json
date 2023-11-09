@@ -6,7 +6,7 @@
   "build-depends": [
   ],
   "depends": [
-    "Test::META"
+    "JSON::Tiny"
   ],
   "description": "Turn ANTLR4 Grammars into Raku Grammars",
   "license": "Artistic-2.0",
@@ -35,8 +35,8 @@
     "parsing"
   ],
   "test-depends": [
-    "Test",
-    "JSON::Fast"
+    "Test::META",
+    "Test"
   ],
   "version": "0.6.3"
 }

@@ -1,6 +1,8 @@
 Revision history for ANTLR4-Grammar
 
 {{$NEXT}}
+
+0.6.3  2023-11-09T13:36:33+01:00
     - First version in the "zef ecosystem"
 
 0.6.2  2019-02-24T12:27:28+09:00
